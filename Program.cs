@@ -28,6 +28,7 @@ namespace PracticeProblem2
 // https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/hello-world?tutorial-step=2
 // From the microsoft hello world tutorial, they teach you how to string variables into a WriteLine() statement.
             Console.WriteLine($"Your total bill of {myBill} split between {intTemp} diners is equal to {splitBill}");
+            Console.ReadLine();
         }
     }
 }
